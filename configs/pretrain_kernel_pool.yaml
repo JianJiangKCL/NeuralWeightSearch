@@ -1,0 +1,26 @@
+name: pretrain_kernel_pool_resnet18
+## general args
+# model
+arch : resnet18
+n_emb : 512
+beta : 0.5
+gs : 1
+end_class : 1000
+# train
+lr : 0.01
+epochs : 160
+num_workers : 8
+batch_size : 2048
+optimizer : sgd
+
+# extra
+disable_tqdm : 1
+
+# only support distributed training
+distributed : 1
+gpus : 8
+
+# data
+dataset : imagenet
+
+

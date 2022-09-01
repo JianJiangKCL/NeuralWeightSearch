@@ -1,0 +1,22 @@
+project: NWS
+name: cub2sketches
+## general args
+# model
+n_emb : 512
+beta : 0.1
+gs : 1
+use_qtz_only : 0
+# train
+lr : 0.001
+epochs : 100
+num_workers : 4
+batch_size : 32
+use_amp : 1
+distributed : False
+gpus : 1
+optimizer : sgd
+
+
+
+
+

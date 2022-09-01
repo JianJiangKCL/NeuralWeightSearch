@@ -1,0 +1,24 @@
+#project
+project: NWS
+name: splitcifar-resnet18
+## general args
+# model
+n_emb : 512
+beta : 0.5
+gs : 1
+use_qtz_only : 0
+# train
+lr : 0.01
+epochs : 100
+num_workers : 4
+batch_size : 32
+optimizer : sgd
+distributed : 0
+gpus : 1
+use_amp : 0
+# data
+dataset : cifar
+
+
+
+
