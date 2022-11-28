@@ -78,7 +78,5 @@ If you found the provided code useful, please cite our work.
 
 if you have any questions, please contact jian.jiang@kcl.ac.uk
 ```bibtex
-@inproceedings{
- 
-}
+Jiang, J., & Celiktutan, O. (2022). Neural Weight Search for Scalable Task Incremental Learning. __arXiv__. https://doi.org/10.48550/arXiv.2211.13823
 ```
